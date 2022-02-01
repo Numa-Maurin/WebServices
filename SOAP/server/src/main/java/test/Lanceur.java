@@ -1,11 +1,11 @@
 import javax.xml.ws.Endpoint;
 import java.util.Date;
 
- public class ChambreWebServicePublisher {
+ public class Lanceur {
 
    public static void main(String[] args){
 
-     Lanceur service = new Lanceur();
+     ChambreInstance service = new ChambreInstance();
      Endpoint ep = Endpoint.create(service);
 
      ep.publish("http://localhost:10000/ReservationVoyage");

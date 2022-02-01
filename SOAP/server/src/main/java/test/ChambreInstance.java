@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Random;
 
  @WebService(endpointInterface="ChambreWebService", targetNamespace="http://localhost:10000/ReservationVoyage")
- public class Lanceur implements ChambreWebService {
+ public class ChambreInstance implements ChambreWebService {
 
    private chambre[] chambres = new chambre[100];
    public reservation[] reservations = new reservation[1000];
@@ -88,30 +88,11 @@ import java.util.Random;
 
       String[] dateASplit = dateA.split("_");
       String[] dateDSplit = dateD.split("_");
-      //chambre chambreReservee = new chambre();
-      //boolean dispo = false;
+  
 
       Date dateAr = new Date(Integer.parseInt(dateASplit[0]),Integer.parseInt(dateASplit[1]),Integer.parseInt(dateASplit[2]));
       Date dateDe = new Date(Integer.parseInt(dateDSplit[0]),Integer.parseInt(dateDSplit[1]),Integer.parseInt(dateDSplit[2]));
 
-      /*for(int i=0;i<1002;i++){
-
-        //System.out.println("Num Chambre Reservee " + chambreReservee.getNumero());
-
-        if (this.getReservations()[i].getChambre().getNumero() == c.getNumero())
-        {
-          if ( ( dateDe.before( this.getReservations()[i].getDateArrivee()) && ( dateAr.before( this.getReservations()[i].getDateArrivee()) || dateDe.equals( this.getReservations()[i].getDateArrivee()) ) ) && ( ( dateDe.after( this.getReservations()[i].getDateDepart()) && ( dateAr.after( this.getReservations()[i].getDateDepart()) || dateAr.equals( this.getReservations()[i].getDateDepart()) ) )))
-          {
-            dispo = true;
-          }
-          else{
-            dispo = false;
-          }
-        }
-
-
-
-      }*/
 
       Random dispo = new Random();
       return dispo.nextBoolean();
