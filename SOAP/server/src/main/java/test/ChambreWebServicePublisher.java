@@ -18,8 +18,8 @@ import java.util.Date;
 
   /*   Date dateAr = new Date(Integer.parseInt(dateASplit[0]),Integer.parseInt(dateASplit[1]),Integer.parseInt(dateASplit[2]));
      Date dateDe = new Date(Integer.parseInt(dateDSplit[0]),Integer.parseInt(dateDSplit[1]),Integer.parseInt(dateDSplit[2]));
-     String nom = "Misseri";
-     String prenom = "Yael";
+     String nom = "Maurin";
+     String prenom = "Numa";
      reservation r =  new reservation(0, c, dateA, dateD, nom, prenom);
      service.reservations[0] = r;
      System.out.println(r.getNom());

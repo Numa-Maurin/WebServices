@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Random;
 
  @WebService(endpointInterface="ChambreWebService", targetNamespace="http://localhost:10000/ReservationVoyage")
- public class ChambreWebServiceImpl implements ChambreWebService {
+ public class Lanceur implements ChambreWebService {
 
    private chambre[] chambres = new chambre[100];
    public reservation[] reservations = new reservation[1000];
