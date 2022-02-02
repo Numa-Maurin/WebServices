@@ -13,10 +13,6 @@ public class vol{
 
   public vol(int num, String comp, String pl, int pr, String date){
 
-    //String[] dateDSplit = date.split("_");
-
-    //Date dateD = new Date(Integer.parseInt(dateDSplit[0]),Integer.parseInt(dateDSplit[1]),Integer.parseInt(dateDSplit[2]));
-
     this.numero = num;
     this.compagnie = comp;
     this.place = pl;

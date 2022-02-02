@@ -6,29 +6,6 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
 
-/**
- * <p>Classe Java pour reserverChambre complex type.
- * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
- * 
- * <pre>
- * &lt;complexType name="reserverChambre">
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="arg0" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="arg1" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="arg2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="arg3" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="arg4" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
- * </pre>
- * 
- * 
- */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "reserverChambre", propOrder = {
     "arg0",
@@ -46,7 +23,7 @@ public class ReserverChambre {
     protected String arg4;
 
     /**
-     * Obtient la valeur de la propriété arg0.
+     * Obtient la valeur de la propriï¿½tï¿½ arg0.
      * 
      */
     public int getArg0() {
@@ -54,7 +31,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Définit la valeur de la propriété arg0.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ arg0.
      * 
      */
     public void setArg0(int value) {
@@ -62,7 +39,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Obtient la valeur de la propriété arg1.
+     * Obtient la valeur de la propriï¿½tï¿½ arg1.
      * 
      * @return
      *     possible object is
@@ -74,7 +51,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Définit la valeur de la propriété arg1.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ arg1.
      * 
      * @param value
      *     allowed object is
@@ -86,7 +63,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Obtient la valeur de la propriété arg2.
+     * Obtient la valeur de la propriï¿½tï¿½ arg2.
      * 
      * @return
      *     possible object is
@@ -98,7 +75,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Définit la valeur de la propriété arg2.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ arg2.
      * 
      * @param value
      *     allowed object is
@@ -110,7 +87,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Obtient la valeur de la propriété arg3.
+     * Obtient la valeur de la propriï¿½tï¿½ arg3.
      * 
      * @return
      *     possible object is
@@ -122,7 +99,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Définit la valeur de la propriété arg3.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ arg3.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +111,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Obtient la valeur de la propriété arg4.
+     * Obtient la valeur de la propriï¿½tï¿½ arg4.
      * 
      * @return
      *     possible object is
@@ -146,7 +123,7 @@ public class ReserverChambre {
     }
 
     /**
-     * Définit la valeur de la propriété arg4.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ arg4.
      * 
      * @param value
      *     allowed object is
